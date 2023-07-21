@@ -20,7 +20,7 @@ export default styles = StyleSheet.create({
     searchBarLeftIconContainerStyle: { paddingLeft: normalized.width(2) },
     homeCenterStyle: {
         flex: 9,
-        borderBottomWidth: 1
+        borderBottomWidth: 1,
     },
     homeBottomStyle: {
         flex: 3,
@@ -43,6 +43,14 @@ export default styles = StyleSheet.create({
     searchResultButton: {
         padding: normalized.width(1.5),
         paddingHorizontal: normalized.width(3),
+    },
+    tempText: {
+        fontSize: Theme.fontSizes.big,
+        color: Theme.colors.white,
+    },
+    imageStyle: {
+        height: normalized.height(15),
+        width: normalized.height(15)
     }
 
 });
