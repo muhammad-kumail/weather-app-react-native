@@ -84,6 +84,11 @@ export default function Home({navigation}) {
         onForest(location);
       });
   }, []);
+  React.useEffect(()=>{
+    if(!searchQuery){
+        Keyboard.dismiss()
+    }
+  },[searchQuery])
 
   return (
     <View style={styles.HomeContainer}>

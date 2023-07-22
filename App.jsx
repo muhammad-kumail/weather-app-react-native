@@ -2,11 +2,13 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {
+  LogBox,
   SafeAreaView,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/pages/home';
+LogBox.ignoreLogs(['Possible Unhandled Promise Rejection']);
 
 const Stack = createNativeStackNavigator();
 export default function App(){
