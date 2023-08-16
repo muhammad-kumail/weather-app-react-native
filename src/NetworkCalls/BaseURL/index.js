@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const apiKey = 'd81461b8f2eb46e08d3163645230907';
+export const apiKey = 'df5cfeca9c8648429dd153230231608';
 
 export default jwtAxios = axios.create({
     baseURL: 'https://api.weatherapi.com/v1/',
